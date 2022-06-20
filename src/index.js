@@ -20,7 +20,19 @@ import Blocks from './chapter_15/Blocks';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Blocks />
+      <Library />
+      <Clock />
+      <CommentList />
+      <NotificationList />
+      <Accommodate />
+      <ConfirmButton />
+      <LandingPage />
+      <AttendanceBook />
+      <SignUp />
+      <Calculator />
+      <ProfileCard />
+      <DarkOrLight />
+      <Blocks />
   </React.StrictMode>,
   document.getElementById('root')
 );
